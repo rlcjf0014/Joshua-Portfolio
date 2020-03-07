@@ -34,8 +34,14 @@ a {
 p {
   margin-bottom: 1.5em; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
   color: #000;
+  font-family: "Quicksand", Arial, sans-serif;;
+  font-weight: 400;
+  margin: 0 0 30px 0; }
+
+h3 {
+  color: rgb(255, 255, 255);
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
@@ -430,6 +436,11 @@ body.offcanvas {
   width: 100%;
   height: 600px;
   margin-bottom: 30px; }
+
+.about-desc {
+  margin-bottom: 20px;
+} 
+
 
 .about-desc h3 {
   font-size: 18px;
@@ -929,7 +940,7 @@ body.offcanvas {
       color: #274e13; }
 
 .project {
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -943,7 +954,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #274e13;
+    background: rgba(50, 50, 50, 0.6);
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -962,7 +973,7 @@ body.offcanvas {
           display: inline;
           padding-right: 5px; }
           .project .desc .con .icon span a {
-            color: #333333;
+            color:  #274e13;
             padding: 5px;
             background: rgba(255, 255, 255, 0.5);
             -webkit-border-radius: 4px;
@@ -971,7 +982,7 @@ body.offcanvas {
             border-radius: 4px; }
         .project .desc .con .icon i {
           font-size: 16px;
-          color: #333333; }
+          color: #f7f3f3; }
     .project .desc h3 {
       font-family: "Quicksand", Arial, sans-serif;
       font-size: 16px;
@@ -991,7 +1002,7 @@ body.offcanvas {
         color: #fff; }
     .project .desc span {
       display: block;
-      color: rgba(255, 255, 255, 0.7);
+      color: rgba(250, 250, 250, 0.7);
       font-size: 13px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1002,7 +1013,7 @@ body.offcanvas {
       -webkit-transform: translate3d(0, 15px, 0);
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
-        color: #000; }
+        color:  #e0e7dd; }
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
@@ -1416,10 +1427,10 @@ body.offcanvas {
       padding-bottom: 1em; } }
 
 .row-bottom-padded-sm {
-  padding-bottom: 1em; }
+  padding-bottom: 0.1em; }
   @media screen and (max-width: 768px) {
     .row-bottom-padded-sm {
-      padding-bottom: 1em; } }
+      padding-bottom: 0.1em; } }
 
 .row-pt-md {
   padding-top: 3em; }
@@ -1437,8 +1448,8 @@ body.offcanvas {
 .stack{
   text-align: center;
   display: inline-block;
-  width: 170px;
-  height: 140px;
+  width: 130px;
+  height: 120px;
   border-radius: 20px 20px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1516,4 +1527,42 @@ body.offcanvas {
   top: 0;
   transform: translate(0, -100%);
 }
+#dedicats {
+  margin-bottom: 20px;
+  margin-left: 2px;
+}
 
+.icon5 {
+  font-size: 20px;
+  padding-right: 4px;
+  vertical-align: middle;
+}
+
+.icon6 {
+  font-size: 35px;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.skillset {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(210, 210, 210) ;
+}
+
+.stack1 {
+  text-align: center;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+}
+
+#cat, #assembl {
+  cursor: pointer;
+}
+
+#assemble {
+  margin-left: 4px;
+}
