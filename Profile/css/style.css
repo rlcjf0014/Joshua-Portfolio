@@ -14,12 +14,13 @@
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
+
 
 a {
   color: #274e13;
@@ -60,6 +61,7 @@ figure {
     @media screen and (max-width: 480px) {
       figure figcaption {
         width: 100%; } }
+        
 
 ::-webkit-selection {
   color: #fff;
@@ -99,6 +101,7 @@ figure {
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
       padding-top: 4em; } }
+      
   #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
@@ -373,6 +376,8 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .colorlib-narrow-content {
       padding: 0; } }
+      
+
 
 .no-gutters {
   margin: 0;
@@ -410,7 +415,7 @@ body.offcanvas {
   position: relative; }
 
 .colorlib-heading {
-  font-size: 18px;
+  font-size: 25px;
   margin-bottom: 1.3em;
   font-weight: 700;
   text-transform: uppercase;
@@ -422,6 +427,7 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .colorlib-heading {
       margin-bottom: 3em; } }
+      
 
 .heading-meta {
   margin-bottom: 15px;
@@ -667,6 +673,7 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .services {
       margin-bottom: 4em; } }
+      
   .services .icon {
     position: absolute;
     top: -20px;
@@ -849,6 +856,7 @@ body.offcanvas {
       @media screen and (max-width: 1200px) {
         .colorlib-feature .colorlib-icon i {
           font-size: 40px; } }
+          
   .colorlib-feature .colorlib-text {
     padding-left: 120px;
     width: 100%; }
@@ -870,6 +878,7 @@ body.offcanvas {
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
         font-size: 28px; } }
+       
 
 .blog-entry {
   width: 100%;
@@ -1026,6 +1035,8 @@ body.offcanvas {
         .project .desc span {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); } }
+
+
   .project:hover .desc {
     opacity: 1; }
     .project:hover .desc h3 {
@@ -1132,6 +1143,7 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     #map {
       height: 200px; } }
+      
 
 .colorlib-bg-color {
   background: #fafafa;
@@ -1489,6 +1501,17 @@ body.offcanvas {
       width: 70vmin;
       }
     }
+
+    @media screen and (min-width: 2500px) {
+      .animated-title {  
+      height: 130vmin;
+      left: 70%;
+      position: absolute;
+      top: 50%;
+      width: 70vmin;
+      }
+    }
+
 .animated-title > div {
   height: 50%;
   overflow: hidden;
@@ -1565,4 +1588,8 @@ body.offcanvas {
 
 #assemble {
   margin-left: 4px;
+}
+
+.highschool {
+  width: 70%;
 }
